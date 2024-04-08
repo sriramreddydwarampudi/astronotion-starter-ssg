@@ -5,7 +5,7 @@ import PostMeta from "@/components/PostMeta.astro";
 import { NotionBlocks, NotionPageCover } from "astronotion/components";
 import { getStandalonePage } from "astronotion/api";
 
-const EXAMPLE_NOTION_ID = "1cf6f82e-ffc2-4ad4-aea5-a50f88198a7b";
+const EXAMPLE_NOTION_ID = "70fae7b4-788d-4273-9745-58212a5c2631";
 
 const data = await getStandalonePage(EXAMPLE_NOTION_ID);
 const { title, cover, contents, created, updated } = data;
